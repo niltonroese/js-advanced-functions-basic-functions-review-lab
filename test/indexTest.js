@@ -19,7 +19,7 @@ describe("index.js", () => {
     })
 
     it("uses the default activity 'go to the office' when no arguments are passed", function() {
-      expect(mondayWork()).to.equal("This Monday, I will go to the office.")
+      expect(mondayWork()).to.equal("c    nn   cx b ")
     })
 
     it("permits the default activity to be overriden", function() {
